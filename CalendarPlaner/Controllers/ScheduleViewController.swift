@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ScheduleViewController.swift
 //  CalendarPlaner
 //
 //  Created by Никита Иващенков on 10/11/2021.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .red
+            
+        view.backgroundColor = .white
+        title = "Schedule"
     }
 }
-
