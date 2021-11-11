@@ -20,21 +20,21 @@ class ScheduleTableViewCell: UITableViewCell {
     let lessonTime = UILabel(text: "08:00",
                              font: UIFont.avenirNextDemiBold20())
     
-    let typeLabel = UILabel(text: "Тип:",
+    let typeLabel = UILabel(text: "Type:",
                             font: UIFont.avenirNext14(),
                             aligment: .right)
     
     let lessonType = UILabel(text: "Лекция",
                              font: UIFont.avenirNextDemiBold14())
     
-    let buildingLabel = UILabel(text: "Корпус:",
+    let buildingLabel = UILabel(text: "Building:",
                                 font: UIFont.avenirNext14(),
                                 aligment: .right)
     
     let lessonBuilding = UILabel(text: "1",
                                  font: UIFont.avenirNextDemiBold14())
     
-    let audLabel = UILabel(text: "Аудитория:",
+    let audLabel = UILabel(text: "Audience:",
                            font: UIFont.avenirNext14(),
                            aligment: .right)
     
